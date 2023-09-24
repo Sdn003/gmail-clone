@@ -1,0 +1,30 @@
+.emailTab-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-bottom-width : 2px;
+    padding: 15px;
+    min-width : 100px;
+    color:grey;
+    border-width : 0 !important;
+}
+
+.emailTab-section > h3{
+    font-size : 12px;
+}
+
+.emailTab-section:hover{
+    background-color: whitesmoke;
+    border-width: 3px !important;
+}
+
+
+.emailTab-section > h3{
+    font-weight: 400;
+    font-size : 14px;
+}
+
+.emailTab-section--active{
+    background-color: whitesmoke;
+    border-width: 3px !important;
+}
